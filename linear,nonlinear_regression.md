@@ -1,7 +1,6 @@
 # 선형 회귀 (Linear Regression)
 
-> 종속 변수 : $y$ </br>
-> 독립 변수 (또는 설명 변수) : $x$
+
 
 ![Normdist_regression](https://user-images.githubusercontent.com/109254161/183783366-fcead578-21c8-4d4c-9586-4996b2fc9a57.png)
 
@@ -12,8 +11,7 @@ $y$와 1개 이상의 $x$의 선형 상관 관계를 모델링하는 회귀분�
 ### 단순 선형 회귀 분석 (Simple Linear Regression Analysis)
 >하나의 $x$ 값으로 $y$ 값을 설명할 수 있는 경우를 단순 선형 회귀(simple linear regression)라고 한다.
 
-$y = \beta_0 + \beta_1x $
-
+> $y = \beta_0 + \beta_1x $
 * 가중치 : $\beta_1$ (weight)
 * 편향 : $\beta_0$
 
@@ -42,7 +40,7 @@ $RSS = \displaystyle\sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2$
 
 ### 다중 선형 회귀 (Multiple Linear Regression)
 
-> 2개 이상의 $x1, x2, x3$ 등의 값을 사용하는 경우를 다중 선형 회귀(multiple linear regression)라고 한다.</br>
+> 2개 이상의 $x_1, x_2, x_3$ 등의 값을 사용하는 경우를 다중 선형 회귀(multiple linear regression)라고 한다.</br>
 
 $y = \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + b$
 
@@ -107,8 +105,8 @@ $\sigma=\displaystyle\frac{1}{1+e^{-x}}$
 
 ## 탄젠트 함수
 
-$tanh(x) = \sigma(2x)-1 $ </br>
-$tanh(x) = \frac {e^x-e^(-x)}{e^x+e^(-x)} $
+$tanh(x) = \sigma(2x)-1$ </br>
+$tanh(x) = \displaystyle\frac {e^x-e^(-x)}{e^x+e^(-x)}$
 
 ![tanh](https://user-images.githubusercontent.com/109254161/183783501-ed4532f9-bcc7-4637-92c8-74dfb27479cc.png)
 
