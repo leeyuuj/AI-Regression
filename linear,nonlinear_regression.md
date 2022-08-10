@@ -40,7 +40,7 @@ $RSS = \displaystyle\sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2$
 
 ### 다중 선형 회귀 (Multiple Linear Regression)
 
-> 2개 이상의 $x1, x2, x3$ 등의 값을 사용하는 경우를 다중 선형 회귀(multiple linear regression)라고 한다.</br>
+> 2개 이상의 $x_1, x_2, x_3$ 등의 값을 사용하는 경우를 다중 선형 회귀(multiple linear regression)라고 한다.</br>
 
 $y = \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + b$
 
