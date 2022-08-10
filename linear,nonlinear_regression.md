@@ -112,7 +112,7 @@ $tanh(x) = \frac {e^x-e^(-x)}{e^x+e^(-x)} $
 
 ![tanh](https://user-images.githubusercontent.com/109254161/183783501-ed4532f9-bcc7-4637-92c8-74dfb27479cc.png)
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 ### 탄젠트 함수의 단점
 
@@ -126,7 +126,7 @@ $f(x) = max(0, x) $
 ![ReLU](https://user-images.githubusercontent.com/109254161/183783535-f3e4136d-fc57-45fc-8403-a003df1b1761.png)
 
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 
 ### ReLU함수의 특징
