@@ -83,7 +83,7 @@ $J(\theta)= \displaystyle\frac{1}{2m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
 > 대표적 활성화 함수 : 시그모이드 함수, 탄젠트 함수, ReLU 함수
  * 출력을 0과 1로 이진값만 반환
 
-$ \sigma=\frac{1}{1+e^-x}$
+$\sigma=\displaystyle\frac{1}{1+e^{-x}}$
 
 ![nonlinear](https://user-images.githubusercontent.com/109254161/183783465-b88687d1-b290-4dac-a919-9d7281309bb0.jpeg)
 
