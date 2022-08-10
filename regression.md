@@ -217,11 +217,11 @@ Y절편 구하기
 <img src="image/KakaoTalk_20220810_114328523.png">
 기울기 구하기
 
-<img src="image/KakaoTalk_20220810_114335342.png>
-
+<img src="image/KakaoTalk_20220810_114335342.png">
 기울기와 y절편의 의미
 
 <img src="image/KakaoTalk_20220810_114341457.png">
+                                                 
 # 회귀분석 결정계수 의미와 계산 방법
 
 ## 결정계수의 의미
@@ -231,9 +231,9 @@ Y절편 구하기
 
 ## 결정계수($R^2$) 계산 방법
 
-$ R^2 = \frac{SSE}{SST} = 1 - \frac{SSR}{SST}$
+$R^2 = \frac{SSE}{SST} = 1 - \frac{SSR}{SST}$
 
-$SST=\displaystyle\sum_{i=1}^{n}(y_i-\bar{y})^2 $
+$SST=\displaystyle\sum_{i=1}^{n}(y_i-\bar{y})^2$
 
 $SST$는 관측값에서 관측값의 평균(혹은 추정치의 평균)을 뺀 결과의 총합이다.
 
