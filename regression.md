@@ -1,7 +1,7 @@
 #회귀의 역사와 정의
 
 ## 회귀의 역사
-<img src="image/KakaoTalk_20220810_114156445.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114156445.png">
 
 회귀의 원래 의미는 옛날 상태로 돌아가는 것을 의미한다. 영국의 유전학자 프랜시스 골턴은 부모의 키와 아이들의 키 사이의 연관 관계를 연구하면서 부모와 자녀의 키사이에는 선형적인 관계가 있고 키가 커지거나 작아지는 것보다는 전체 키 평균으로 돌아가려는 경향이 있다는 가설을 세웠으며 이를 분석하는 방법을 "회귀분석"이라고 하였다. 이러한 경험적 연구 이후, 칼 피어슨은 아버지와 아들의 키를 조사한 결과를 바탕으로 함수 관계를 도출하여 회귀분석 이론을 수학적으로 정립하였다.
 
@@ -18,7 +18,7 @@
 
 
 
-<img src="images/KakaoTalk_20220810_114214691.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114214691.png">
 ## 회귀분석과 상관 관계의 차이
 
 
@@ -43,12 +43,12 @@
 > 설명변수와 목표변수가 비선형관계</br>
 예시: 2차 함수, 지수 함수 등
 
-<img src="images/KakaoTalk_20220810_114224147.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114224147.png">
 2)로지스틱 회귀분석
 > 로지스틱 회귀분석은 설명변수(독립변수, X)와 범주형 목표변수(종속변수, Y) 간의 관계를 모형화하여 목표변수를 분석하거나 분류하는 통계적 방법론이다.
 
 
-<img src="images/KakaoTalk_20220810_114231638.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114231638.png">
 ## 회귀분석 특징
 
 <선형 회귀분석 특징>
@@ -178,8 +178,8 @@
 
 #회귀 모델의 종류
 
-<img src="images/KakaoTalk_20220810_114253205.png" style="width:450px;height:300px;">
-<img src="images/KakaoTalk_20220810_114300408.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114253205.png">
+<img src="image/KakaoTalk_20220810_114300408.png">
 ###회귀 모델의 예측 대상
 
 
@@ -192,7 +192,7 @@
 와인의 등급을 결정짓는 실제 규칙이 존재한다고 가정할 때, 우리가 구하고자 하는 모델이 그 실제 규칙을 나타내는 함수라고 할 수 있다. 와인의 등급을 매기는 실제 규칙이 존재하더라도 와인 감별사에 의해 등급이 달라질 수 있는데 이를 규칙에 반영하기 위해 무작위 에러(노이즈)값을 지정한다.
 
 
-<img src="images/ "KakaoTalk_20220810_114307082.png"width:450px;height:300px;">
+<img src="image/ "KakaoTalk_20220810_114307082.png">
 일부 데이터를 가지고 선형 회귀 모델을 추론한다면 항상 정확한 규칙을 맞출 수는 없다. 실제 규칙과는 조금씩 차이가 생긴다. 제대로 된 회귀 모델을 만드려면 차이(error)를 최소화해야 한다.
 
 
@@ -205,20 +205,20 @@
 * 최소 제곱 방법은 에러의 제곱의 합(Sum of the Squared Errors, SSE)을 최소화 시킴
 * 에러의 제곱의 합을 최소화 시킬 수 있는 파라미터를 찾으면 적절한 회귀 모델을 만든 것임
 
-<img src="images/KakaoTalk_20220810_114314650.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114314650.png">
 최소제곱의 해
 
-<img src="images/KakaoTalk_20220810_114321354.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114321354.png">
 Y절편 구하기
 
-<img src="images/KakaoTalk_20220810_114328523.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114328523.png">
 기울기 구하기
 
-<img src="images/KakaoTalk_20220810_114335342.png" style="width:450px;height:300px;">UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==)
+<img src="image/KakaoTalk_20220810_114335342.png>
 
 기울기와 y절편의 의미
 
-<img src="images/KakaoTalk_20220810_114341457.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114341457.png">
 # 회귀분석 결정계수 의미와 계산 방법
 
 ## 결정계수의 의미
@@ -282,7 +282,7 @@ $SSR$은 관측값에서 추정값을 뺀 값, 즉 잔차($Residual$)의 총합�
 
 ## 회귀 분석 과정
 
-<img src="images/KakaoTalk_20220810_114428852.png" style="width:450px;height:300px;">
+<img src="image/KakaoTalk_20220810_114428852.png">
 ## 회귀 분석의 한계
 
 * 두 변수 사이의 관계를 표시할 수 있지만 변수 중 하나가 다른 변수의 원인으로 된다는 것을 증명하지는 않는다. 
