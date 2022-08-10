@@ -141,9 +141,10 @@
 *   같은 이미지여도 위치와 방향에 따라 변할 수 있기 때문에  Convolution과  Pooling과정을 반복적으로 적용하여 이미지에서 주상화 된 정보를 얻는다
 
       
- <img src="image/딥러닝(CNN).png" >   
-      
        ex) 문장 분류, 물체 감지 및 분활, 이미지 처리
+
+    
+ <img src="image/딥러닝(CNN).png" >   
 
   #### RNN(Recurrent Neural Network)
 *   음성과 글자 등 순차적인 정보를 인식하는데 사용
