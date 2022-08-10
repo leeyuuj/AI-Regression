@@ -19,7 +19,7 @@ $y = \beta_0 + \beta_1x $
 
 ![스크린샷_2017-11-15_오전_12 33 47](https://user-images.githubusercontent.com/109254161/183783423-9aff100c-6140-4b5a-8e0d-3ba63fce0aab.png)
 
-[출처 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=anthouse28&logNo=221149064073]
+[출처](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=anthouse28&logNo=221149064073)
 
 "데이터를 가장 잘 설명하는"이라는 의미 : "실제값과 예측차이가 작은"
 > 최적의 회귀모델을 만든다 => 잔차(오차값)합이 최소가 되는 모델을 만든다</br>
@@ -87,7 +87,7 @@ $ \sigma=\frac{1}{1+e^-x}$
 
 ![nonlinear](https://user-images.githubusercontent.com/109254161/183783465-b88687d1-b290-4dac-a919-9d7281309bb0.jpeg)
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 * 일정 구간은 선형성을 띄지만 일정구간은 선형적 성격을 띄지 않는다.
 
