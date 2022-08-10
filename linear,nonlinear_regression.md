@@ -19,7 +19,7 @@ $y = \beta_0 + \beta_1x $
 
 ![스크린샷_2017-11-15_오전_12 33 47](https://user-images.githubusercontent.com/109254161/183783423-9aff100c-6140-4b5a-8e0d-3ba63fce0aab.png)
 
-[출처 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=anthouse28&logNo=221149064073]
+[출처](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=anthouse28&logNo=221149064073)
 
 "데이터를 가장 잘 설명하는"이라는 의미 : "실제값과 예측차이가 작은"
 > 최적의 회귀모델을 만든다 => 잔차(오차값)합이 최소가 되는 모델을 만든다</br>
@@ -29,7 +29,7 @@ $y = \beta_0 + \beta_1x $
 * 실제 $y$ 값과 예측 $y$값의 차이, 즉 데이터의 잔차 합이 최소가 되는 모델
 * 잔차의 제곱합(RSS; Residual Sum of Squares)을 최소화하는 계수 찾기
 
-$RSS = \sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2 $
+$RSS = \displaystyle\sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2$
 
 #### 오차항에 대한 가정
 오차항은 모수이므로 우리는 그 값을 알수없다.</br>
@@ -68,13 +68,13 @@ $h_\theta(x)= \theta_0+\theta_1x_1+\theta_2x_2+...$
 평균 제곱 오차는 각 데이터와 가설 함수 사이에 나타나는 오차를 다 구하여 오차값들을 모두 제곱한다. </br>
 (제곱하는 이유는 데이터가 음수일 수 있기 때문에, 이들을 양수로 통일하기 위해서, 오차를 더 부각시키기 위해)
 
-$ \frac{1} {m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
+$\displaystyle\frac{1} {m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
 
 ### 손실 함수
 > 가설함수를 평가하기 위한 함수
 > 손실 함수의 결과가 작을수록 가설함수의 손실이 적다는 것이기에 좋은 가설 함수라고 평가할수 있다. 
 
-$ J(\theta)= \frac{1}{2m} \sum_{i=1}{m}(h_\theta(x^i)-y^i)^2 $
+$J(\theta)= \displaystyle\frac{1}{2m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
 
 # 비선형 회귀 (Nonlinear Regression)
 
@@ -83,11 +83,11 @@ $ J(\theta)= \frac{1}{2m} \sum_{i=1}{m}(h_\theta(x^i)-y^i)^2 $
 > 대표적 활성화 함수 : 시그모이드 함수, 탄젠트 함수, ReLU 함수
  * 출력을 0과 1로 이진값만 반환
 
-$ \sigma=\frac{1}{1+e^-x}$
+$\sigma=\displaystyle\frac{1}{1+e^{-x}}$
 
 ![nonlinear](https://user-images.githubusercontent.com/109254161/183783465-b88687d1-b290-4dac-a919-9d7281309bb0.jpeg)
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 * 일정 구간은 선형성을 띄지만 일정구간은 선형적 성격을 띄지 않는다.
 
@@ -112,7 +112,7 @@ $tanh(x) = \frac {e^x-e^(-x)}{e^x+e^(-x)} $
 
 ![tanh](https://user-images.githubusercontent.com/109254161/183783501-ed4532f9-bcc7-4637-92c8-74dfb27479cc.png)
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 ### 탄젠트 함수의 단점
 
@@ -126,7 +126,7 @@ $f(x) = max(0, x) $
 ![ReLU](https://user-images.githubusercontent.com/109254161/183783535-f3e4136d-fc57-45fc-8403-a003df1b1761.png)
 
 
-[출처 : https://reniew.github.io/12/]
+[출처](https://reniew.github.io/12/)
 
 
 ### ReLU함수의 특징
