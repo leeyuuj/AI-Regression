@@ -74,7 +74,7 @@ $\frac{1} {m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
 > 가설함수를 평가하기 위한 함수
 > 손실 함수의 결과가 작을수록 가설함수의 손실이 적다는 것이기에 좋은 가설 함수라고 평가할수 있다. 
 
-$ J(\theta)= \frac{1}{2m} \sum_{i=1}{m}(h_\theta(x^i)-y^i)^2 $
+$J(\theta)= \displaystyle\frac{1}{2m} \sum_{i=1}^{m}(h_\theta(x^i)-y^i)^2$
 
 # 비선형 회귀 (Nonlinear Regression)
 
