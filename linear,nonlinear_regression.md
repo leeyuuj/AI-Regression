@@ -29,7 +29,7 @@ $y = \beta_0 + \beta_1x $
 * 실제 $y$ 값과 예측 $y$값의 차이, 즉 데이터의 잔차 합이 최소가 되는 모델
 * 잔차의 제곱합(RSS; Residual Sum of Squares)을 최소화하는 계수 찾기
 
-$RSS = \sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2 $
+$RSS = \displaystyle\sum_{i=0}^n e_i^2 = e_1^2 + e_2^2 + \dots + e_n^2$
 
 #### 오차항에 대한 가정
 오차항은 모수이므로 우리는 그 값을 알수없다.</br>
