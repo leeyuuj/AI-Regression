@@ -107,8 +107,8 @@ $\sigma=\displaystyle\frac{1}{1+e^{-x}}$
 
 ## 탄젠트 함수
 
-$tanh(x) = \sigma(2x)-1 $ </br>
-$tanh(x) = \frac {e^x-e^(-x)}{e^x+e^(-x)} $
+$tanh(x) = \sigma(2x)-1$ </br>
+$tanh(x) = \frac {e^x-e^(-x)}{e^x+e^(-x)}$
 
 ![tanh](https://user-images.githubusercontent.com/109254161/183783501-ed4532f9-bcc7-4637-92c8-74dfb27479cc.png)
 
